@@ -1,15 +1,17 @@
 import './App.css';
-import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import FormSection from './components/FormSection';
-import TicketTemplate from './components/TicektTemplate';
-import SucessTicket from './components/SucessTicket';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import FormSection from './components/Form/FormSection';
+import TicketTemplate from './components/Ticket/TicektTemplate';
+import SucessTicket from './components/Ticket/SucessTicket';
+import Home from './components/Home/index';
 
 function App() {
   return (
         <BrowserRouter>
         <Routes>
-          <Route path="/" element={<FormSection />} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/form" element={<FormSection />}/>
           <Route path="/ticket" element={<TicketTemplate />} />
           <Route path="/sucess" element={<SucessTicket />} />
         </Routes>

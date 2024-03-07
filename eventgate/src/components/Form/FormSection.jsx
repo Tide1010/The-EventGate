@@ -1,8 +1,7 @@
-  import { useState, useRef, useEffect } from 'react'
-  import TicektTemplate from './TicektTemplate';
+  import { useState} from 'react'
   import React from 'react'
   import './formSection.css'
-  import './TicektTemplate.css'
+  import '../Ticket/TicektTemplate.css'
   import { useNavigate } from 'react-router-dom';// Import for react-router-dom
 
   const FormSection = ( ) => {

@@ -3,8 +3,6 @@ import { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom';
 import StripeCheckout from 'react-stripe-checkout';
 import { useNavigate } from 'react-router-dom';// Import for react-router-dom
-import Button from '@mui/material/Button';
-import QRCode from 'react-qr-code';
 import './TicektTemplate.css'
 
 const TicektTemplate = (props) => {
