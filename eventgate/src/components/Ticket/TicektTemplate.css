@@ -9,11 +9,8 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body,
 html {
-	font-family: "Staatliches", cursive;
-	background: #d83565;
 	color: black;
 	font-size: 14px;
 	letter-spacing: 0.1em;
