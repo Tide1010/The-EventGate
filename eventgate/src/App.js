@@ -8,6 +8,7 @@ import LoginForm from './components/Login/LoginForm';
 import LiveEvents from './components/LiveEvents/LiveEvents';
 import RegisterForm from './components/RegisterForm/RegisterForm';
 import Home from './components/Home/index';
+import supabase from './lib/supabaseClient';
 
 function App() {
   return (
